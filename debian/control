@@ -1,14 +1,13 @@
 Source: i2util
 Priority: optional
-Maintainer: perfSONAR developers <debian@perfsonar.net>
-Uploaders: Antoine Delvaux <antoine.delvaux@man.poznan.pl>,
- Valentin Vidic <Valentin.Vidic@CARNet.hr>
+Maintainer: Vyatta Package Maintainers <DL-vyatta-help@att.com>
 Build-Depends: debhelper (>= 9), autotools-dev, automake, autoconf
 Standards-Version: 3.9.6
 Section: libs
 Homepage: http://software.internet2.edu
 
 Package: libi2util-dev
+Provides: libi2util-dev-vyatta
 Section: libdevel
 Architecture: any
 Depends: ${misc:Depends}
